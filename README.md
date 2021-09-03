@@ -1,6 +1,6 @@
 # Wolox Code Climate CLI
 
-This is a fork from the [Codeclimate CLI](https://github.com/wolox/codeclimate).
+This is a fork from the [Codeclimate CLI](https://github.com/codeclimate/codeclimate).
 
 ## Overview
 
