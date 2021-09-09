@@ -32,6 +32,8 @@ RUN wget -q -O /tmp/docker.tgz \
 
 COPY . /usr/src/app
 
+ENV PATH /usr/src/app/bin:$PATH
+
 VOLUME /code
 WORKDIR /code
-ENTRYPOINT ["/usr/src/app/bin/codeclimate"]
+CMD ["ruby", "/usr/src/app/bin/codeclimate", "analyze", "-f", "json"]
